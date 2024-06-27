@@ -3,13 +3,13 @@ package org.lessons.java.abstractanimals;
 public class Delfino extends Animale{
 
 	@Override
-	public String verso() {
-		return "Biosonar";
+	public void verso() {
+		System.out.println("Verso: Biosonar");
 	}
 
 	@Override
-	public String mangia() {
-		return "Pesci";
+	public void mangia() {
+		System.out.println("Mangia: Pesci");
 	}
 
 }

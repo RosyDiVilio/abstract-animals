@@ -2,12 +2,12 @@ package org.lessons.java.abstractanimals;
 
 public abstract class Animale {
 	
-	public String dormi() {
-		return "zzzz";
+	public void dormi() {
+		System.out.println("zzzz");
 	}
 	
-	public abstract String verso();
+	public abstract void verso();
 	
-	public abstract String mangia();
+	public abstract void mangia();
 
 }
