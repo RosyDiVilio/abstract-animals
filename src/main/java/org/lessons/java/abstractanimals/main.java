@@ -16,6 +16,7 @@ public class main {
 		titti.mangia();
 		titti.verso();
 		titti.dormi();
+		titti.vola();
 		System.out.println("------------");
 		
 		Aquila america = new Aquila();
@@ -23,6 +24,7 @@ public class main {
 		america.mangia();
 		america.verso();
 	    america.dormi();
+	    america.vola();
 		System.out.println("------------");
 		
 		Delfino flipper = new Delfino();
@@ -30,6 +32,7 @@ public class main {
 		flipper.mangia();
 		flipper.verso();
 		flipper.dormi();
+		flipper.nuota();
 		System.out.println("------------");
 	
 	}
